@@ -1,0 +1,308 @@
+/*Global CSS start*/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+/*Global CSS end*/
+/*Header section CSS start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+
+
+}
+.warraper {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	position: relative;
+	
+
+
+}
+
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 80%;
+	float: right;
+	margin-top: 40px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 25px;
+	display: inline-block;
+	transition: 0.6s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+	cursor: pointer;
+}
+.btn-button{
+	width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+/*Header section CSS end*/
+
+/*Banner section CSS start*/
+.banner{
+	background: url(../images/bg.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+	
+.banner_contant{
+	width: 50%;
+	margin-top: 300px;
+	margin-bottom: 80px;
+	
+ 	
+ }
+.banner_contant h1{
+	font-family: sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0;
+
+}
+.banner_contant h2{
+	font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #0078BD;
+    text-transform: capitalize;
+    margin: 0 0;
+}
+.banner_contant p{
+	line-height: 25px;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0
+}
+.banner_contant button{
+	width: 200px;
+    height: 60px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    color: #5A5A5A;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+.banner_contant button:focus{
+	outline: 0;
+}
+.banner_contant button:hover{
+	background-color: #0078BD;
+	color: #fff;
+	cursor: pointer;
+
+}
+/*Banner section CSS end*/
+
+/*Service section CSS start*/
+.service{
+	background-color: #121B2C;
+	padding: 45px 0 20px;
+}
+.single{
+	border-right: 1px solid #827d7d;
+	width: 30%;
+	float: left;
+	padding: 0 15px;
+	margin-right: 28px;
+}
+.single:last-child{
+	margin-right: 0px;
+	border-right: 0px;
+}
+.top{	
+	overflow: hidden;
+	padding-top: 25px;
+}
+.img_top{
+    width: 25%;
+    float: left;
+}
+.img_top img{
+    width: 100%;
+}
+.heading_top{
+    width: 60%;
+    float: left;
+    margin-top: 20px;
+}
+.heading_top h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
+.heading_top h3{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #0078BD;
+}
+.bottom{}
+.bottom p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+}
+
+/*Service section CSS end*/
+
+/*Intro section CSS start*/
+.warraper2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;	
+	/*border: 1px solid #fff;*/
+}
+.intro{
+	background-color: #000000;
+	overflow: hidden;
+}
+.first_column{ 
+	width: 25%;
+	color: #fff;
+ }
+ .contant{
+ 	padding: 0px 10px;
+ }
+.contant h3{	
+	color: #fff;
+}
+.contant h3 span{
+	color: #0078BD;
+}
+.contant p{
+	color: #fff;
+}
+.contant p span{
+	color: #fff;
+}
+.contant span{
+	margin-left: 10px;
+}
+
+.second_column{
+	width: 30%;
+}
+.contant h5{
+	color: #fff;
+}
+
+.first_column, .second_column, .third_column{
+	float: left;
+	padding-top: 50px;
+    padding-left: 30px;
+}
+}
+.third_column{
+	width: 35%;
+    overflow: hidden;
+    padding-left: 75px;
+}
+.mobile{
+	float: left;
+}
+.mobile img{
+    width: 125%;
+    padding-left: 40px;
+}
+.app{
+	float: left;
+	padding-left: 100px;
+}
+.app h3{
+	color: #fff;
+}
+.app h4{
+	color: #0078BD
+}
+.app img{}
+
+/*Intro section CSS end*/
+
+/*Footer section CSS start*/
+
+footer{
+	background-color: #121B2C;
+	margin: 0;
+	padding: 0;
+}
+.menu2{}
+.menu2 ul{
+	
+}
+.menu2 ul li{
+	list-style: none;
+    float: left;
+    border-right: 1px solid #fff;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.menu2 ul li:first-child{
+	padding-left: 0;
+}
+.menu2 ul li a{
+	font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu2 ul li a:hover{}
+.menu2 p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 38px;
+	
+}
+.logo2{
+	float: right;
+}
+.logo2 img{
+	margin-top: -60px;
+    padding: 0 25px 25px;
+}
+/*Footer section CSS end*/
